@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100px; */
+    background-color: #7C93C3;
+}
+.navbar input , button{
+    padding: 10px 20px;
+}
+
+.cards{
+    width: 400px;
+    background-color: #55679C;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+    transition: all 0.3s ease-in-out;
+
+
+}
+.cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.image{
+    max-height: 80%;
+    width: 100%;
+}
+
+.image img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.disc p{
+  font-size: 20px;
+  padding:  40px 20px;
+  color: white;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+
+.btnlm{
+    text-align: center;
+    margin: 80px;
+}
+
+.btnlm button{
+    padding: 20px 40px;
+    background-color: #1E2A5E;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.btnlm button:hover{
+    opacity: 0.9;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.download-btn{
+    margin-bottom: 20px;
+    background-color: #1E2A5E;
+    color: white;
+}
+.download-btn2{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .navbar{
+    flex-direction: column;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    gap: 20px;
+   }
+   .input-div{
+    display: flex;
+    gap: 5px;
+   }
+  }
+
+
